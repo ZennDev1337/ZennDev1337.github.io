@@ -8,7 +8,7 @@ pub fn Header() -> Html {
           {"ZennDev1337 aka Zenny🦀"}
           </h1>
           <h2 id="hacker-subtitle" class="subtitle ">
-            {"A backend Developer"}
+            {"A Backend Developer"}
           </h2>
       </section>
 

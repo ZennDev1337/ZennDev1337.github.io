@@ -58,7 +58,7 @@ pub fn Links() -> Html {
     );
     html! {
         <div id="links" class="links" >
-            <div id="" class="links-title is-italic" data-aos="zoom-out"
+            <div id="links-title" class="links-title is-italic" data-aos="zoom-out"
             data-aos-duration="1000" data-aos-offset="">
                 {"Links"}
             </div>

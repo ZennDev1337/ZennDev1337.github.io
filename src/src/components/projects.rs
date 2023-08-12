@@ -46,7 +46,7 @@ fn entrys(name: &str, year: u32, text: &str, link: &'static str) -> Html {
     html!(
         <div class="project" data-aos="fade-left"
         data-aos-duration="1000" data-aos-offset="180">
-            <h2  class="project-title">{name} <span class="project-year">{year}</span></h2>
+            <h2 class="project-title">{name} <span class="project-year">{year}</span></h2>
             <p class="project-text">{text}</p>
             <a class="project-link" href={link}>{name.to_owned()+" >"}</a>
         </div>

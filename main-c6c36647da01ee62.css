@@ -10,7 +10,7 @@ html {
     max-width: 99%;
 }
 .container {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 #projects,
 #links,

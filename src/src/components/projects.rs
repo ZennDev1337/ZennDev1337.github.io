@@ -30,7 +30,9 @@ pub fn Projects() -> Html {
         <div id="projects" class="projects" data-aos="zoom-out"
         data-aos-duration="1000" data-aos-offset="">
             <div id="projects-title" class="projects-title is-italic">
-                {"Projects"}
+                <p>
+                    {"Projects"}
+                </p>
             </div>
             {Rust_for_Arduboy}
             {Ferristype}

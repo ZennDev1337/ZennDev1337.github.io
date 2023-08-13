@@ -10,3 +10,5 @@ mod projects;
 pub use projects::Projects;
 mod links;
 pub use links::Links;
+mod pgp;
+pub use pgp::Pgp;

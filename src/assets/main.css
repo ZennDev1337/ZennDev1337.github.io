@@ -36,7 +36,7 @@ html {
     background-color: #0c0c0c !important;
     min-height: 100% !important;
     font-family: "dm_monomedium" !important;
-    font-size: clamp(12px, 2vw, 15px) !important;
+    font-size: clamp(14px, 2vw, 16px) !important;
     letter-spacing: 0px !important;
     scroll-behavior: smooth;
     max-width: 99%;
@@ -80,7 +80,7 @@ h1 {
     color: white !important;
     white-space: nowrap;
     font-family: "Inter";
-    font-size: clamp(30px, 5vw, 40px) !important;
+    font-size: clamp(30px, 5vw, 42px) !important;
     font-style: italic !important;
     font-weight: 900;
     margin: 0px !important;
@@ -152,7 +152,7 @@ h1 {
 .links-item {
     display: flex;
     align-content: center;
-    font-size: clamp(14px, 2vw, 16px) !important;
+    font-size: clamp(14px, 2vw, 20px) !important;
     padding-top: 0.6rem;
     color: #c2c2c2;
 }

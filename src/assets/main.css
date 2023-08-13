@@ -146,15 +146,18 @@ h1 {
     }
 }
 .menu {
-    margin-top: 2.5rem;
+    margin-top: 1.9rem;
 }
 .menu-item,
 .links-item {
     display: flex;
     align-content: center;
     font-size: clamp(14px, 2vw, 20px) !important;
-    padding-top: 0.6rem;
+
     color: #c2c2c2;
+}
+.menu-item {
+    padding-top: 0.6rem;
 }
 .menu-item-logo,
 .link-icon {

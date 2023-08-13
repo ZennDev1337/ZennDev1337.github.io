@@ -612,16 +612,16 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper3804 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 443, __wbg_adapter_16);
+    imports.wbg.__wbindgen_closure_wrapper3882 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 469, __wbg_adapter_16);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3875 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 456, __wbg_adapter_19);
+    imports.wbg.__wbindgen_closure_wrapper3953 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 482, __wbg_adapter_19);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3991 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 464, __wbg_adapter_22);
+    imports.wbg.__wbindgen_closure_wrapper4069 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 490, __wbg_adapter_22);
         return addHeapObject(ret);
     };
     imports['./snippets/portfolio-efa6d97dc3016bb5/assets/main.js'] = __wbg_star0;
@@ -664,7 +664,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('portfolio-7ebc4ea50c30610d_bg.wasm', import.meta.url);
+        input = new URL('portfolio-90ab7843bd483b4_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

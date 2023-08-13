@@ -152,7 +152,7 @@ h1 {
 .links-item {
     display: flex;
     align-content: center;
-    font-size: clamp(14px, 2vw, 20px) !important;
+    font-size: clamp(16px, 2vw, 20px) !important;
 
     color: #c2c2c2;
 }

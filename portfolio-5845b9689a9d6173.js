@@ -612,15 +612,15 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper3882 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper3892 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 469, __wbg_adapter_16);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3953 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper3963 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 482, __wbg_adapter_19);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper4069 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper4079 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 490, __wbg_adapter_22);
         return addHeapObject(ret);
     };
@@ -664,7 +664,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('portfolio-90ab7843bd483b4_bg.wasm', import.meta.url);
+        input = new URL('portfolio-5845b9689a9d6173_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

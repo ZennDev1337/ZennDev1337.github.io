@@ -1,17 +1,32 @@
 @font-face {
-    font-family: "Inter-BlackItalic", "Inter", sans-serif;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
     src: url("fonts/Inter-BlackItalic.woff2") format("woff2"),
         url("fonts/Inter-BlackItalic.woff") format("woff");
 }
 @font-face {
-    font-family: "Inter-Bold", "Inter", sans-serif;
-    src: url("fonts/Inter-Bold.woff2") format("woff2"),
-        url("fonts/Inter-Bold.woff2") format("woff");
+    font-family: "jetbrains_monoregular";
+    src: url("fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"),
+        url("fonts/jetbrainsmono-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
-
 @font-face {
-    font-family: "DM Mono", monospace;
-    src: url("fonts/DMMono-Medium.ttf") format("ttf");
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("fonts/Inter-Bold.woff2") format("woff2"),
+        url("fonts/Inter-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "dm_monomedium";
+    src: url("fonts/dmmono-medium-webfont.woff2") format("woff2"),
+        url("fonts/dmmono-medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body,
@@ -20,8 +35,9 @@ html {
     color: #c2c2c2 !important;
     background-color: #0c0c0c !important;
     min-height: 100% !important;
-    font-family: "DM Mono", monospace !important;
+    font-family: "dm_monomedium" !important;
     font-size: clamp(12px, 2vw, 15px) !important;
+    letter-spacing: 0px !important;
     scroll-behavior: smooth;
     max-width: 99%;
 }
@@ -63,12 +79,12 @@ h1 {
 .title {
     color: white !important;
     white-space: nowrap;
-    font-family: "Inter-BlackItalic", "Inter", sans-serif;
+    font-family: "Inter";
     font-size: clamp(30px, 5vw, 40px) !important;
-    font-style: italic;
+    font-style: italic !important;
     font-weight: 900;
     margin: 0px !important;
-    letter-spacing: -3px;
+    letter-spacing: -1.5px;
     line-height: 1.2rem;
 }
 @media screen and (max-width: 450px) {
@@ -84,7 +100,7 @@ h1 {
     color: #c2c2c2 !important;
 }
 .description {
-    line-height: 1.6;
+    line-height: 1.6rem;
 }
 .infos {
     margin-top: 1.5rem;
@@ -164,12 +180,13 @@ h1 {
 .projects-title,
 .links-title,
 .pgp-keys-title {
-    font-family: "Inter-BlackItalic", "Inter", sans-serif;
+    font-family: "Inter";
+    font-style: italic;
     font-size: clamp(20px, 3vw, 24px);
     font-weight: 900;
     color: white;
     margin-bottom: 2rem;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     width: fit-content;
     pointer-events: all;
 }
@@ -185,15 +202,16 @@ h1 {
 }
 .project-title {
     display: flex;
-    font-family: "Inter-Bold", "Inter", sans-serif;
+    font-family: "Inter";
+    font-style: normal;
     font-size: clamp(16px, 2.5vw, 20px);
-    letter-spacing: -1.5px;
+    letter-spacing: -1px;
     font-weight: 700;
     color: white;
 }
 .project-year {
     background-color: rgb(66, 66, 66);
-    font-family: "DM Mono", monospace !important;
+    font-family: "dm_monomedium";
     font-size: 12px !important;
     font-style: normal;
     border-radius: 4px;

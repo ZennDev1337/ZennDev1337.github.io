@@ -2,7 +2,7 @@ use yew::{function_component, html, Html};
 
 fn entry(text: &str, link: &'static str, icon: Html) -> Html {
     html! {
-        <div class="column is-half is-align-content-center" data-aos="fade-up"
+        <div class="column is-half is-align-content-center" data-aos="fade-left"
         data-aos-duration="1000" data-aos-offset="">
             <div class="links-item">
                 <div class="link-icon">

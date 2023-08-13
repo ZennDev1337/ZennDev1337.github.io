@@ -5,7 +5,7 @@ pub fn Header() -> Html {
     html! {
         <section class="section">
           <h1 id="hacker-title" class="title is-italic ">
-          {"ZennDev1337 aka Zenny 🦀"}
+          {"ZennDev1337 "}<nobr>{"aka Zenny 🦀"}</nobr>
           </h1>
           <h2 id="hacker-subtitle" class="subtitle ">
             {"A Backend Developer"}

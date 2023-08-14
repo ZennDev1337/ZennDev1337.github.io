@@ -32,7 +32,7 @@ fn App() -> Html {
 
 fn main() {
     yew::Renderer::<App>::new().render();
-    let timeout = Timeout::new(0, move || {
+    let timeout = Timeout::new(1, move || {
         // Do something after the one second timeout is up!
         hacker_text("hacker-title".to_owned(), 7, 10);
         hacker_text("hacker-subtitle".to_owned(), 6, 15);

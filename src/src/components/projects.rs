@@ -1,4 +1,5 @@
 use yew::{function_component, html, Html};
+#[allow(dead_code)]
 enum Language {
     Rust,
     Csharp,
